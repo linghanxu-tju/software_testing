@@ -1,4 +1,4 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import java.util.Arrays;
 
@@ -24,6 +24,6 @@ public class TestBackPack {
         		     {0,0,0,4,4,4,4,4,4,4,4},
         		     {0,0,0,4,5,5,5,9,9,9,9},
         		     {0,0,0,4,5,6,6,9,10,11,11}};
-        assertEquals(c, bp.BackPack_Solution(m, n, w, p));
+        assertArrayEquals(c, bp.BackPack_Solution(m, n, w, p));
 	}
 }
